@@ -1,7 +1,7 @@
 ![Banner](assets/banner.png)
 
 ## 🤖 NextHook
-NextHook is a Discord webhook multi-tool built in Python. Whether you are a server owner, administrator or just a casual user, with NextHook you can control your webhook(s) with ease. Enhance your webhook experience with NextHook today!
+NextHook is a Discord webhook multi-tool built in Python. Whether you are a server owner, administrator or just a casual user, NextHook allows you to control your webhook(s) with ease. Enhance your webhook experience with NextHook today!
 
 **Disclaimer: NextHook has features that can be used to harm servers. If you choose to harm other servers using NextHook, which is not recommended, you may face punishment I, the developer, will <u>NOT</u> be held responsible for any actions taken against you when using NextHook.**
 
