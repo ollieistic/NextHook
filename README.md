@@ -20,7 +20,7 @@ Here's a quick guide on how to setup NextHook on your Windows machine. It's easy
 5️⃣ Go back to the main folder and run `start.bat` to start NextHook!
 
 ## 🐧 Linux Setup
-Nexthook hasn't been officially tested on Linux operating systems yet.
+Nexthook hasn't been officially tested on Linux operating systems yet. I'll make sure NextHook works on Linux soon, be patient.
 
 ## 🔓 Open Source
 NextHook is open-source because I want to contribute to the open-source community. I'm also too lazy to obfuscate my code, it would just get cracked anyways. If you want to use code from this project, you must follow the GNU General Public License v3. Here's a short summary of what you can do and cannot do:
