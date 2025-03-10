@@ -23,7 +23,7 @@ Here's a quick guide on how to setup NextHook on your Windows machine. It's easy
 Nexthook hasn't been officially tested on Linux operating systems yet. I'll make sure NextHook works on Linux soon, be patient.
 
 ## 🔓 Open Source
-NextHook is open-source because I want to contribute to the open-source community. I'm also too lazy to obfuscate my code, it would just get cracked anyways. If you want to use code from this project, you must follow the GNU General Public License v3. Here's a short summary of what you can do and cannot do:
+NextHook is open-source because I want to contribute to the open-source community. I'm also too lazy to obfuscate my code, it would just get cracked anyways. If you want to use code from this project, you must follow the GNU General Public License v3. Here's a short summary of what you cannot do:
 
 - You are free to use, modify, and distribute this code as long as you provide proper attribution and use the same license.
 - You are not allowed to use this code for commercial purposes (cannot sell).
