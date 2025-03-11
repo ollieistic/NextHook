@@ -5,7 +5,6 @@ NextHook is a Discord webhook multi-tool built in Python. Whether you are a serv
 
 **Disclaimer: Certain features of NextHook can be used to harm other servers. Ollieistic, the author, will NOT be held responsible for any actions taken against you.**
 
-If you need support, please join my [Discord community.](https://discord.gg/np4YQzbHcz)
 ## 🪟 Windows Setup
 Here's a quick guide on how to setup NextHook on your Windows machine. It's easy, I promise.
 
