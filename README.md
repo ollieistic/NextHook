@@ -18,7 +18,7 @@ Here's a quick guide on how to setup NextHook on your Windows machine. It's easy
 
 5️⃣ Go back to the main folder and run `start.bat` to start NextHook!
 
-If you need any support please join my Discord community: https://ollieistic.com/join
+If you need any support please join my Discord community: https://discord.gg/np4YQzbHcz
 
 ## 🐧 Linux Setup
 Nexthook is not officially available on Linux. This will change soon, thank you for your patience.
