@@ -55,13 +55,3 @@ socials = Center.XCenter(socials) # Center socials
 
 def print_socials():
     print(socials)
-
-
-# NextHook is open-source but falls under the GNU GPL-v3 license. Few things to note:
-
-# - You are free to use, modify, and distribute this code as long as you provide proper attribution and use the same license.
-# - You are not allowed to use this code for commercial purposes (cannot sell).
-# - You are not allowed to remove the license from this code.
-# - You are not allowed to hold the author liable for any damages caused by this code.
-# - You are not allowed to sublicense this code.
-# - You are not allowed to use this code for illegal purposes.
