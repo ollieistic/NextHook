@@ -60,37 +60,20 @@ def spam_webhook(webhook):
 
 
 # Not tested - might come in future updates
-#def rename_webhook(webhook):
-#    clear()
-#    title("NextHook - Rename Webhook")
-#    print_banner()
-#
-#    name = input("rename@NEXTHOOK > Enter new name: ").strip()
-#
-#    data = {
-#        'name': name
-#    }
-#
-#    response = requests.patch(webhook, json=data)
-#
-#    if response.status_code == 200: # Successful request
-#        print(f"\n[{Fore.GREEN}+{Fore.RESET}] Webhook renamed successfully.")
-#    else: # Unsuccessful request
-#        print(f"\n[{Fore.RED}-{Fore.RESET}] Failed to rename webhook.")
-#
+def rename_webhook(webhook):
+    clear()
+    title("NextHook - Rename Webhook")
+    print_banner()
 
+    name = input("rename@NEXTHOOK > Enter new name: ").strip()
 
-# Sneak peek:
-# def change_avatar(webhook):
-#    clear()
-#    title("NextHook - Change Avatar") 
+    data = {
+        'name': name
+    }
 
+    response = requests.patch(webhook, json=data)
 
-# NextHook is open-source but falls under the GNU GPL-v3 license. Few things to note:
-
-# - You are free to use, modify, and distribute this code as long as you provide proper attribution and use the same license.
-# - You are not allowed to use this code for commercial purposes (cannot sell).
-# - You are not allowed to remove the license from this code.
-# - You are not allowed to hold the author liable for any damages caused by this code.
-# - You are not allowed to sublicense this code.
-# - You are not allowed to use this code for illegal purposes.
+    if response.status_code == 200: # Successful request
+        print(f"\n[{Fore.GREEN}+{Fore.RESET}] Webhook renamed successfully.")
+    else: # Unsuccessful request
+        print(f"\n[{Fore.RED}-{Fore.RESET}] Failed to rename webhook.")
