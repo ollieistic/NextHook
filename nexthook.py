@@ -45,7 +45,7 @@ while True:
     elif choice == "3":
         spam_webhook(webhook_url)
     elif choice == "4":
-        print("Coming soon...")
+        rename_webhook(webhook_url)
     elif choice == "5":
         print() # New line
         print(f"[{Fore.GREEN}+{Fore.RESET}] NextHook's source code can be found here: https://github.com/ollieistic/NextHook")
