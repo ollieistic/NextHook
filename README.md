@@ -24,4 +24,6 @@ If you need any support please join my Discord community: https://discord.gg/np4
 Nexthook is not officially available on Linux. This will change soon, thank you for your patience.
 
 ## 📸 Preview
-![Menu Showcase](assets/menu.png)
+![NextHook Preview](assets/menu.png)
+
+Version of preview: 1.0.0
