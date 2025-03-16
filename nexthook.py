@@ -47,11 +47,10 @@ while True:
     elif choice == "4":
         rename_webhook(webhook_url)
     elif choice == "5":
-        print() # New line
-        print(f"[{Fore.GREEN}+{Fore.RESET}] NextHook's source code can be found here: https://github.com/ollieistic/NextHook")
+        print(f"\n[{Fore.GREEN}+{Fore.RESET}] NextHook's source code can be found here: https://github.com/ollieistic/NextHook")
     elif choice == "6":
         exit()
     else:
-        print(f"[{Fore.RED}-{Fore.RESET}] Invalid choice. Please try again.")
+        print(f"\n[{Fore.RED}-{Fore.RESET}] Invalid choice. Please try again.")
     
     input("\nPress ENTER to return.") # Press ENTER to re-run the program
