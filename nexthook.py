@@ -13,9 +13,9 @@ def login():
     title("NextHook - Login")
     print_banner()
 
-    webhook_url = input("login@NEXTHOOK > Enter Webhook URL: ").strip()
+    webhook_url = input(" login@NEXTHOOK > Enter Webhook URL: ").strip()
     response = requests.get(webhook_url)
-    if response.status_code == 200 and "discord.com" in response.url: # Successful request and Discord URL
+    if response.status_code == 200 and "discord.com/api/webhooks/" in response.url: # Successful request and Discord URL
         print(f"\n[{Fore.GREEN}+{Fore.RESET}] Webhook URL is valid. Logging in...")
         time.sleep(1) # Wait for 1 second
     else: # Unsuccessful request or invalid URL
@@ -35,7 +35,7 @@ while True:
     print_choices() # Print choices
     print() # New line
 
-    choice = input("menu@NEXTHOOK > Choice: ").strip() # User input
+    choice = input(" menu@NEXTHOOK > Choice: ").strip() # User input
 
     # Choice handler
     if choice == "1":
