@@ -23,5 +23,5 @@ If you need any support please join my Discord community: https://discord.gg/np4
 ## 🐧 Linux Setup
 Nexthook is not officially available on Linux. This will change soon, thank you for your patience.
 
-## 📸 Preview (v1.1.1)
+## 📸 Preview (v1.1.2)
 ![NextHook Preview](assets/menu.png)
