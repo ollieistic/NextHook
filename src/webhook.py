@@ -6,7 +6,7 @@ def send_message(webhook):
     title("NextHook - Send Message")
     print_banner()
 
-    message = input("message@NEXTHOOK > Enter message: ").strip()
+    message = input(" message@NEXTHOOK > Enter message: ").strip()
 
     data = {
         'content': message
@@ -40,8 +40,8 @@ def spam_webhook(webhook):
     title("NextHook - Spam Webhook")
     print_banner()
 
-    message = input("spam@NEXTHOOK > Enter message: ").strip() # Message to send
-    amount = int(input("spam@NEXTHOOK > Enter amount: ").strip()) # Amount of messages to send
+    message = input(" spam@NEXTHOOK > Enter message: ").strip() # Message to send
+    amount = int(input(" spam@NEXTHOOK > Enter amount: ").strip()) # Amount of messages to send
 
     print() # New line
 
@@ -65,7 +65,7 @@ def rename_webhook(webhook):
     title("NextHook - Rename Webhook")
     print_banner()
 
-    name = input("rename@NEXTHOOK > Enter new name: ").strip()
+    name = input(" rename@NEXTHOOK > Enter new name: ").strip()
 
     data = {
         'name': name
@@ -77,3 +77,10 @@ def rename_webhook(webhook):
         print(f"\n[{Fore.GREEN}+{Fore.RESET}] Webhook renamed successfully.")
     else: # Unsuccessful request
         print(f"\n[{Fore.RED}-{Fore.RESET}] Failed to rename webhook.")
+
+
+
+# Sneak peek:
+# def change_avatar(webhook):
+#    clear()
+#    title("NextHook - Change Avatar") 
