@@ -20,8 +20,5 @@ Here's a quick guide on how to setup NextHook on your Windows machine. It's easy
 
 If you need any support please join my Discord community: https://discord.gg/np4YQzbHcz
 
-## 🐧 Linux Setup
-Nexthook is not officially available on Linux. This will change soon, thank you for your patience.
-
 ## 📸 Preview (v1.1.2)
 ![NextHook Preview](assets/menu.png)
