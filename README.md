@@ -20,5 +20,5 @@ Here's a quick guide on how to setup NextHook on your Windows machine. It's easy
 
 If you need any support please join my Discord community: https://discord.gg/np4YQzbHcz
 
-## 📸 Preview (v1.1.2)
-![NextHook Preview](assets/menu.png)
+## 📸 Preview (v1.1.3)
+![NextHook Preview](assets/preview.png)
