@@ -2,6 +2,7 @@ from pystyle import Colorate, Colors, Center
 from colorama import Fore, init
 import requests
 import time
+import base64
 import os
 
 # Clear Terminal Function
@@ -39,7 +40,7 @@ def print_banner():
 # Choices
 choices = """
 [01] > Send Message     [02] > Delete Webhook       [03] > Spam Webhook
-[04] > Rename Webhook   [05] > Source Code          [06] > Exit
+[04] > Rename Webhook   [05] > Change Avatar        [06] > Exit
 """
 
 choices = Center.XCenter(choices) # Center choices
