@@ -1,5 +1,6 @@
 from src import *
 from src.webhook import *
+import base64
 
 # Initialize colorama with autoreset
 init(autoreset=True)
@@ -13,7 +14,7 @@ def login():
     title("NextHook - Login")
     print_banner()
 
-    webhook_url = input(" login@NEXTHOOK > Enter Webhook URL: ").strip()
+    webhook_url = input("login@NEXTHOOK > Enter Webhook URL: ").strip()
     response = requests.get(webhook_url)
     if response.status_code == 200 and "discord.com/api/webhooks/" in response.url: # Successful request and Discord URL
         print(f"\n[{Fore.GREEN}+{Fore.RESET}] Webhook URL is valid. Logging in...")
@@ -35,7 +36,7 @@ while True:
     print_choices() # Print choices
     print() # New line
 
-    choice = input(" menu@NEXTHOOK > Choice: ").strip() # User input
+    choice = input("menu@NEXTHOOK > Choice: ").strip() # User input
 
     # Choice handler
     if choice == "1":
@@ -47,7 +48,7 @@ while True:
     elif choice == "4":
         rename_webhook(webhook_url)
     elif choice == "5":
-        print(f"\n[{Fore.GREEN}+{Fore.RESET}] NextHook's source code can be found here: https://github.com/ollieistic/NextHook")
+        change_webhook_avatar(webhook_url)
     elif choice == "6":
         exit()
     else:
